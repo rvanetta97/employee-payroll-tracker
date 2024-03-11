@@ -16,7 +16,7 @@ How to Use:
 
 1. Add Employees: Click on the "Add Employees" button to begin entering employee data. Follow the prompts to input each employee's first name, last name, and salary. The application ensures data integrity by validating salary inputs.
 
-2. Calculate Average Salary: After entering employee data, the application automatically calculates and displays the average salary of your workforce. Use this information to assess salary structures and make adjustments as needed.
+2. Calculate Average Salary: After entering employee data, the application automatically calculates and console logs the average salary of your workforce. Use this information to assess salary structures and make adjustments as needed.
 
 3. Select Random Employee: Utilize the random employee selection feature to choose an employee for various tasks or assignments. The application randomly selects an employee from your database, providing a fair and unbiased selection process.
 
