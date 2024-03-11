@@ -22,7 +22,7 @@ const collectEmployees = function () {
     let employee = {
       firstName: firstName,
       lastName: lastName,
-      salary: salary,
+      salary: parseFloat((salary)),
     };
     employeesArray.push(employee)
 
@@ -36,16 +36,15 @@ const collectEmployees = function () {
 
 // Display the average salary
 const displayAverageSalary = function (employeesArray) {
-    const employeesArray = stringWithNumbersAndLetters.match(/\d+/g).map(Number);
-
-    const sum = employeesArray.reduce((acc, curr) => acc + curr, 0);
-
+  console.log (employeesArray)
+  let sum = 0
+  for (let i= 0; i<employeesArray.length; i++) {
+    console.log(employeesArray[i].salary)
+    sum = sum + employeesArray[i].salary
+  }
     const average = sum / employeesArray.length;
-
-    console.log("Employees Array:", employeesArray);
     console.log("Sum:", sum);
     console.log("Average:", average);
-
   }
 
   // Select a random employee
