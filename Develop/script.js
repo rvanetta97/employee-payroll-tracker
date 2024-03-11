@@ -42,7 +42,7 @@ const displayAverageSalary = function (employeesArray) {
 
     const average = sum / employeesArray.length;
 
-    console.log("Numbers Array:", numbersArray);
+    console.log("Employees Array:", employeesArray);
     console.log("Sum:", sum);
     console.log("Average:", average);
 
